@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks Point</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* Estilos globais */
+        header, footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .btn {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        /* Seção inicial */
+        .banner {
+            background-color: #000;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 48px;
+        }
+        .banner .btn {
+            margin-top: 20px;
+        }
+        /* Seção sobre nós */
+        .section {
+            padding: 60px 20px;
+        }
+        .sobre-nos {
+            background-color: #fff;
+            color: #000;
+            text-align: center;
+        }
+        .sobre-nos h2 {
+            color: #ff0000;
+        }
+        /* Seção do cardápio */
+        .cardapio {
+            background-color: #fff;
+            color: #000;
+        }
+        .cardapio h2 {
+            text-align: center;
+            color: #ff0000;
+        }
+        .cardapio .item {
+            padding: 15px;
+            border-bottom: 1px solid #ccc;
+        }
+        /* Seção de reservas */
+        .reservas {
+            background-color: #000;
+            color: #fff;
+            padding: 60px 20px;
+        }
+        .reservas form input, .reservas form textarea {
+            padding: 10px;
+            margin: 10px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .reservas .btn {
+            margin-top: 20px;
+        }
+        /* Galeria */
+        .galeria {
+            background-color: #fff;
+            text-align: center;
+        }
+        .galeria img {
+            max-width: 300px;
+            margin: 15px;
+            border: 5px solid #ff0000;
+        }
+        /* Contato */
+        .contato {
+            background-color: #fff;
+            padding: 60px 20px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Drinks Point</h1>
+        <nav>
+            <a href="#sobre-nos">Sobre Nós</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#reservas">Reservas</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    
+    <!-- Banner inicial -->
+    <section class="banner">
+        <h1>Sofisticação em cada drink</h1>
+        <p>Uma experiência única em um ambiente exclusivo</p>
+        <a href="file:///C:/Users/Admin/Downloads/1.png" class="btn">Ver Cardápio 1</a>
+    </section>
+    <!-- Banner inicial -->
+    <section class="banner">
+        <h1>Escolhas os melhores petiscos</h1>
+        <p>Ira provar algo nunca visto antes</p>
+        <a href="file:///C:/Users/Admin/Downloads/2.png" class="btn">Ver Cardápio 2</a>
+    </section>
+
+    <!-- Sobre nós -->
+    <section id="sobre-nos" class="section sobre-nos">
+        <h2>Sobre Nós</h2>
+        <p>Fundado em 1999, o Drinks Point nasceu do desejo de criar um espaço onde sofisticação, excelência em coquetelaria e um ambiente refinado se unissem para oferecer uma experiência única. Ao longo dos anos, evoluímos de um pequeno refúgio para amantes de drinks clássicos para um ícone no cenário de bares de luxo, sempre mantendo o compromisso com a qualidade e inovação. Nossa trajetória é marcada por um profundo respeito à arte da mixologia e por uma equipe dedicada, que transforma cada visita em uma verdadeira celebração de sabores e momentos inesquecíveis.</p>
+    </section>
+
+    <!-- Cardápio -->
+    <section id="cardapio" class="section cardapio">
+        <h2>Nosso Cardápio</h2>
+        <div class="item">
+            <h3>Drinks Clássicos</h3>
+            <p>Uma seleção dos melhores coquetéis clássicos.</p>
+        </div>
+        <div class="item">
+            <h3>Drinks Exclusivos</h3>
+            <p>Criações únicas feitas pelos nossos mixologistas.</p>
+        </div>
+        <div class="item">
+            <h3>Aperitivos & Entradas</h3>
+            <p>Delícias para acompanhar seus drinks.</p>
+        </div>
+    </section>
+
+    <!-- Reservas -->
+    <section id="reservas" class="section reservas">
+        <h2>Reservas</h2>
+        <p>Reserve seu lugar agora mesmo e garanta uma noite inesquecível.</p>
+        <form>
+            <input type="text" placeholder="Nome">
+            <input type="number" placeholder="Número de Pessoas">
+            <input type="date" placeholder="Data">
+            <textarea placeholder="Mensagem"></textarea>
+            <button type="submit" class="btn">Reservar</button>
+        </form>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="section galeria">
+        <h2>Galeria</h2>
+        <img src="https://i.pinimg.com/564x/bf/50/2a/bf502abb795f8d7e602c68f63c76ae15.jpg" alt="Drink sofisticado">
+        <img src="https://i.pinimg.com/564x/fd/6a/25/fd6a25c59d0202b224f0b8f017123e84.jpg" alt="Drink sofisticado">
+        <img src="https://i.pinimg.com/564x/6a/b5/ae/6ab5aeca4c31685e534af8d57c9deb44.jpg" alt="Ambiente elegante">
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section contato">
+        <h2>Contato</h2>
+        <p>Email: jonathanssilva06@gmail.com</p>
+        <p>Telefone: (41) 99877-0483</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; since 1999 Drinks Point. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
